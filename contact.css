@@ -1,0 +1,199 @@
+#conection img {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(116, 224, 246);
+  display: inline-block;
+}
+
+#icons-image {
+  border-radius: 50%;
+  margin: 20px 20px;
+  background-color: cornflowerblue;
+}
+
+#icons-image:hover {
+  background-color: dodgerblue;
+  transition: all 0.3s ease-in;
+  transform: translateY(-10px) scale(1.1);
+}
+
+.ideas {
+  background: #0a0a1f;
+  padding: 60px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 30px #00ffff, 0 0 60px #0099ff;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.ideash2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #00ffff;
+  text-shadow: 0 0 15px #00ffff, 0 0 25px #0099ff;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  border: none;
+  background: #111133;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 0 8px #00ffff;
+  transition: all 0.3s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 20px #00ffff, 0 0 30px #0099ff;
+}
+
+#btn.Submite {
+  width: 100%;
+  background-color: #00ffff;
+  color: #0a0a1f;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #0099ff;
+}
+
+#btn.Submite:hover {
+  box-shadow: 0 0 30px #00ffff, 0 0 50px #0099ff, 0 0 70px #00ffff;
+  transform: scale(1.05);
+}
+
+#btn.Submite:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.form ::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
+#name {
+  margin: 10px 10px;
+  width: 50%;
+  text-align: center;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+
+#textArea {
+  outline: none;
+  text-align: center;
+}
+
+.ideash2 {
+  color: dodgerblue;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.ideas {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+}
+
+@media (max-width: 748px) {
+  .ideas {
+    background-color: black;
+  }
+}
+
+.footer {
+  background: #0a0a1f;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 -2px 10px rgba(0,255,255,0.3), 0 -2px 20px rgba(255,0,255,0.2);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff;
+  max-width: 100%;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+.footer .contact {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer .contact a img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: cornflowerblue;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer .contact a img:hover {
+  background-color: dodgerblue;
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff, 0 0 30px #ff9900;
+}
+
+@media (max-width: 400px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .footer .contact {
+    gap: 10px;
+  }
+
+  .footer .contact a img {
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+  }
+}
